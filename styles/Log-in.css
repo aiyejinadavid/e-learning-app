@@ -1,0 +1,36 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* box-sizing: border-box; */
+    /* position: absolute; */
+    width: 100vw;
+    height: 110vh;
+    /* left: 0px; */
+    /* top: 0px; */
+    background: #B8B8D2;
+    /* border: 1px solid #F2F2F2; */
+}
+
+section {
+    padding: 50px 60px 0 60px;
+    width: calc(100% - 120px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    flex: 50%;
+    background-position: left;
+    
+}
+
+.right {
+    flex: 50%;
+    align-items: center;
+}
+
+
